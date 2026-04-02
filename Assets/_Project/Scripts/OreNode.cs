@@ -6,7 +6,7 @@ public class OreNode : MonoBehaviour
     public Transform spawnPoint;
     public float spawnForce = 2f;
     public float cooldownTime = 1.5f;
-
+    public Transform oreCollectPoint;
     private float nextMineTime = 0f;
 
     private void OnCollisionEnter(Collision collision)
