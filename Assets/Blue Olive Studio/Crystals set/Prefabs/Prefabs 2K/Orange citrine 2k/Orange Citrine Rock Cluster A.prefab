@@ -93,7 +93,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2470118150392128793, guid: 2ff944e62000d1c46acd7a87ac5baeca, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7c54e6eb363d0c94ea9f40a6ce8a66bf, type: 2}
     - target: {fileID: 919132149155446097, guid: 2ff944e62000d1c46acd7a87ac5baeca, type: 3}
@@ -101,16 +101,101 @@ PrefabInstance:
       value: Crystal Rock Cluster A
       objectReference: {fileID: 0}
     - target: {fileID: 4541392981352650437, guid: 2ff944e62000d1c46acd7a87ac5baeca, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 65a2c1b4e607c9e49959c5c4881dd6d2, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2ff944e62000d1c46acd7a87ac5baeca, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1074169641661675093}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2ff944e62000d1c46acd7a87ac5baeca, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4479273036115458951}
+    - targetCorrespondingSourceObject: {fileID: -8734704173890467632, guid: 2ff944e62000d1c46acd7a87ac5baeca, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6214426345062425945}
   m_SourcePrefab: {fileID: 100100000, guid: 2ff944e62000d1c46acd7a87ac5baeca, type: 3}
+--- !u!1 &8408960745862730697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8734704173890467632, guid: 2ff944e62000d1c46acd7a87ac5baeca, type: 3}
+  m_PrefabInstance: {fileID: 8249110090653178649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6214426345062425945
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8408960745862730697}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 331441723478848480, guid: 2ff944e62000d1c46acd7a87ac5baeca, type: 3}
 --- !u!4 &8498293143320689906 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2ff944e62000d1c46acd7a87ac5baeca, type: 3}
   m_PrefabInstance: {fileID: 8249110090653178649}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9132121617461421640 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2ff944e62000d1c46acd7a87ac5baeca, type: 3}
+  m_PrefabInstance: {fileID: 8249110090653178649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1074169641661675093
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9132121617461421640}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &4479273036115458951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9132121617461421640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a288d7c53b2df45962415556899df7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OreNode
+  smallOrePrefab: {fileID: 966607810235432403, guid: 81078ad06b179124c814e72fe17e3c36, type: 3}
+  spawnPoint: {fileID: 8498293143320689906}
+  spawnForce: 2
+  cooldownTime: 1.5
+  oreCollectPoint: {fileID: 0}
