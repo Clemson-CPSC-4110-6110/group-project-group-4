@@ -432,11 +432,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4264342752944190, guid: dd97834f6f07b5f48967e131f371b7f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.606007
+      value: 26.65601
       objectReference: {fileID: 0}
     - target: {fileID: 4264342752944190, guid: dd97834f6f07b5f48967e131f371b7f0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.903737
+      value: 4.0295877
       objectReference: {fileID: 0}
     - target: {fileID: 4264342752944190, guid: dd97834f6f07b5f48967e131f371b7f0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -600,6 +600,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4004468145395006, guid: a0ac4c6540ad663468d86b7d6bb07c9d, type: 3}
   m_PrefabInstance: {fileID: 109621630}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &113009811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 113009812}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &113009812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113009811}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1055311758}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &121790521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,6 +1553,37 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &244348731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 244348732}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &244348732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244348731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 796466204}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &259625872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1885,6 +1947,100 @@ Transform:
   - {fileID: 1273029562}
   m_Father: {fileID: 1019414649}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1001 &370886637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 2047735082}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23.491404
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.755778
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.60756
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.05858759
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7157543
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.67937726
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.150698
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 16.776
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 171.827
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -94.194
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2047735082}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &370886638 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 370886637}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &370886639 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 370886637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &373297936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2082,6 +2238,131 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &412534193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 412534194}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &412534194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412534193}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1633769602}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &420008510
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1414092998}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 43.98847
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.943707
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 69.068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.16506808
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.46419615
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0017022637
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.8702135
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -8.643
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 305.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -196.989
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1414092998}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &420008511 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 420008510}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &420008512 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 420008510}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &445939297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2204,6 +2485,100 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4399536890800422, guid: f134863d956a12a41a5e0ccdedb110ca, type: 3}
   m_PrefabInstance: {fileID: 463436671}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &464863846
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1370333530}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 36.72825
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.530838
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 61.102005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7216746
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.38671485
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.33815935
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.46398893
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -14.144
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 299.141
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 73.812
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1370333530}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &464863847 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 464863846}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &464863848 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 464863846}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &471639698
 GameObject:
@@ -2598,6 +2973,100 @@ Transform:
   - {fileID: 1063219469}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &609098459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1611593738}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.783604
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.134613
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 97.69439
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.05872439
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.25224563
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.707988
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.65702105
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -64.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 107.377
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -271.239
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1611593738}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &609098460 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 609098459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &609098461 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 609098459}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &610296687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2616,7 +3085,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4072993402720666, guid: 49561c9ced9a8a14a9aa40be4dd8248c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9753904
+      value: 4.028789
       objectReference: {fileID: 0}
     - target: {fileID: 4072993402720666, guid: 49561c9ced9a8a14a9aa40be4dd8248c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2781,6 +3250,100 @@ Transform:
   - {fileID: 1368376540}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &685252942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 2086127277}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -46.195015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.001385
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 82.37627
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0014026687
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6011963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.117870465
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.79035926
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 10.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 75.303
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.578
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2086127277}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &685252943 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 685252942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &685252944 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 685252942}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &687677399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3236,6 +3799,100 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4004468145395006, guid: a0ac4c6540ad663468d86b7d6bb07c9d, type: 3}
   m_PrefabInstance: {fileID: 789092500}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &796466202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 244348732}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.551924
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.7433562
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 52.729565
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.70760775
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.13268955
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.36668372
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5892605
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -14.144
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 404.141
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 73.812
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 244348732}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &796466203 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 796466202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &796466204 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 796466202}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &816378841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3449,6 +4106,20 @@ Transform:
   - {fileID: 1266966770}
   - {fileID: 918759243}
   - {fileID: 273802267}
+  - {fileID: 1773353352}
+  - {fileID: 1633769601}
+  - {fileID: 464863847}
+  - {fileID: 1465729872}
+  - {fileID: 1055311757}
+  - {fileID: 1113005880}
+  - {fileID: 370886638}
+  - {fileID: 685252943}
+  - {fileID: 1327918461}
+  - {fileID: 609098460}
+  - {fileID: 2072559287}
+  - {fileID: 796466203}
+  - {fileID: 1669402703}
+  - {fileID: 420008511}
   - {fileID: 1249019315}
   - {fileID: 1818372873}
   - {fileID: 1247649088}
@@ -5195,6 +5866,100 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1368376541}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1055311756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 113009812}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.360163
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.671911
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 86.163055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.26581007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7313864
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6277833
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.017523296
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 24.256
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 199.752
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -94.433
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 113009812}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &1055311757 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1055311756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1055311758 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1055311756}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1055426505
 GameObject:
   m_ObjectHideFlags: 0
@@ -5357,6 +6122,100 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1707732872824540353, guid: 018247255856540428a6c9bc11629902, type: 3}
   m_PrefabInstance: {fileID: 1063219468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1113005879
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1834255570}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.749385
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.531609
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 53.623783
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7257836
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.41728827
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.43642065
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.32961458
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 18.543
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 286.597
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -62.726
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1834255570}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &1113005880 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1113005879}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1113005881 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1113005879}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1137628071 stripped
 GameObject:
@@ -5527,6 +6386,37 @@ PrefabInstance:
       addedObject: {fileID: 2099315930}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81de1a2d8e7348e4c8cd25d326655523, type: 3}
+--- !u!1 &1142726734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1142726735}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1142726735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142726734}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1465729873}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1145393914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6827,6 +7717,100 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f61b2bee68d853c4ab7baf6062cda8d4, type: 3}
+--- !u!1001 &1327918460
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1903382039}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.29206
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 24.61599
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 100.25203
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.2588496
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.008561692
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8178726
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5138171
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 57.662
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 129.186
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -28.106
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1903382039}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &1327918461 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1327918460}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1327918462 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1327918460}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1330061432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7125,6 +8109,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1767192434, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
   m_PrefabInstance: {fileID: 1368376539}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1370333529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1370333530}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1370333530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370333529}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 464863848}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1391255541
 GameObject:
   m_ObjectHideFlags: 0
@@ -7248,6 +8263,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4004468145395006, guid: a0ac4c6540ad663468d86b7d6bb07c9d, type: 3}
   m_PrefabInstance: {fileID: 1408946177}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1414092997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1414092998}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1414092998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414092997}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 420008512}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1427357974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7632,6 +8678,100 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1001 &1465729871
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1142726735}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.957903
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.6735578
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 88.47037
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.3895518
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.81519437
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.42824432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.01773388
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -40.565
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 203.649
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 115.723
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1142726735}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &1465729872 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1465729871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1465729873 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1465729871}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1486414902
 GameObject:
   m_ObjectHideFlags: 0
@@ -8093,6 +9233,131 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 918e9495f6e289f4983e7e744ac76c15, type: 3}
+--- !u!1 &1611593737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611593738}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1611593738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611593737}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 609098461}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1633769600
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 412534194}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.5862274
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.668699
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 88.116455
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0980608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7003998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7017839
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0855782
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.988
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 165.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 89.757
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 412534194}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &1633769601 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1633769600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1633769602 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1633769600}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1650418787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8216,6 +9481,100 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4246233310359716, guid: b53586081307f1543bb0315828b57953, type: 3}
   m_PrefabInstance: {fileID: 1660992053}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1669402702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1709082201}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.77225
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.659042
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64.94644
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.74080265
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.17606837
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.42951238
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.48552093
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 42.683
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 399.279
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -50.606
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1709082201}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &1669402703 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1669402702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1669402704 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1669402702}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1678021628
 GameObject:
@@ -8484,6 +9843,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.7891386, z: 1.4527446}
   m_Center: {x: 0.000000007456299, y: -0.10543055, z: -0.0682068}
+--- !u!1 &1709082200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1709082201}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1709082201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709082200}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1669402704}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1722817725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8681,6 +10071,100 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4705614124702618, guid: 473537c058b2b4c478082268e7026d93, type: 3}
   m_PrefabInstance: {fileID: 1761831717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1773353351
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 2112598733}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.086092
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.68069744
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 79.580444
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.09764526
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.78719866
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.60280913
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.08605191
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.865
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 194.686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -104.743
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2370005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2112598733}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &1773353352 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1773353351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1773353353 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 1773353351}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1790982821
 GameObject:
@@ -8914,6 +10398,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
   m_PrefabInstance: {fileID: 1818372872}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1834255569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1834255570}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1834255570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834255569}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1113005881}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1845585653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8968,6 +10483,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4004468145395006, guid: a0ac4c6540ad663468d86b7d6bb07c9d, type: 3}
   m_PrefabInstance: {fileID: 1845585653}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1903382038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1903382039}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1903382039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903382038}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1327918462}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1911952105
 GameObject:
   m_ObjectHideFlags: 0
@@ -9467,6 +11013,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 676962783}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2047735081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2047735082}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2047735082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047735081}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 370886639}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2052820387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9561,6 +11138,131 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
   m_PrefabInstance: {fileID: 2052820387}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2072559286
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 851921710}
+    m_Modifications:
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 2124355696}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: smallOrePrefab
+      value: 
+      objectReference: {fileID: 2476901327230172660, guid: 010dca83bb4f2434f8a2a5fe34fb2023, type: 3}
+    - target: {fileID: 1892985500805417647, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: oreCollectPoint
+      value: 
+      objectReference: {fileID: 1566730743}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6576662
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16.2387
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 77.602806
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.20980376
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.15029408
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3341342
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.90650344
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 32.869
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 29.429
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -505.078
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.283694
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8876019
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24.651815
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652964456437015396, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      propertyPath: m_Name
+      value: Amethyst Rock Cluster A (23)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2124355696}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+--- !u!4 &2072559287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4212891727926693151, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 2072559286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2072559288 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
+  m_PrefabInstance: {fileID: 2072559286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2086127276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2086127277}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2086127277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086127276}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 685252944}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2099315929
 GameObject:
   m_ObjectHideFlags: 0
@@ -9686,6 +11388,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6331610059844738555, guid: df6dd5733c2c0aa4dadcbbbbfe713969, type: 3}
   m_PrefabInstance: {fileID: 2108384842}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2112598732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2112598733}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2112598733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112598732}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1773353353}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2118604512
 GameObject:
   m_ObjectHideFlags: 0
@@ -9716,6 +11449,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1500182713}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2124355695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2124355696}
+  m_Layer: 0
+  m_Name: Amethyst Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2124355696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124355695}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2072559288}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2131623013
 GameObject:
