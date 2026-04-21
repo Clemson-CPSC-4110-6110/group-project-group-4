@@ -24,6 +24,24 @@ public class ScoreManager : MonoBehaviour
         UpdateScore();
     }
 
+    public void AddPoints(int amount)
+    {
+        score += amount;
+        UpdateScore();
+    }
+
+    public bool SpendPoints(int amount)
+    {
+        if (score >= amount)
+        {
+            score -= amount;
+            UpdateScore();
+            return true;
+        }
+
+        return false;
+    }
+
     void UpdateScore()
     {
         scoreText.text = "Score: " + score;
