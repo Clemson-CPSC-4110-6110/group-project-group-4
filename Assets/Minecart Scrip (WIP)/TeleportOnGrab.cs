@@ -42,6 +42,9 @@ public class TeleportOnGrab : MonoBehaviour
         if (matchTargetRotation)
             transform.rotation = targetLocation.rotation;
 
+        if (ScoreManager.instance != null)
+            ScoreManager.instance.AddPoint();
+
         // Stop physics
         if (rb != null)
         {
