@@ -5,8 +5,9 @@ using System.Collections;
 public class UpgradeButton : MonoBehaviour
 {
     [Header("Upgrade Settings")]
-    public int cost = 10;
-    public string upgradeName = "Generic Upgrade";
+    public int cost = 5;
+    public string upgradeName = "Pickaxe";
+    public PickaxeStats pickaxeStats;
 
     [Header("UI Feedback")]
     public TextMeshPro upgradeText;
@@ -32,6 +33,12 @@ public class UpgradeButton : MonoBehaviour
             return;
         }
 
+        if (pickaxeStats == null)
+        {
+            ShowTemporaryMessage("No Pickaxe Stats Found!", failColor);
+            return;
+        }
+
         if (ScoreManager.instance.SpendPoints(cost))
         {
             ApplyUpgrade();
@@ -45,11 +52,10 @@ public class UpgradeButton : MonoBehaviour
 
     void ApplyUpgrade()
     {
-        // Put your actual upgrade logic here later
-        // Example:
-        // playerSpeed += 1;
-        // miningRate *= 1.2f;
-        // unlockObject.SetActive(true);
+        pickaxeStats.UpgradeLevel();
+
+        // Double the cost for the next purchase
+        cost *= 2;
     }
 
     void SetDefaultText()
