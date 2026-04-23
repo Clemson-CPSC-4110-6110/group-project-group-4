@@ -22,7 +22,17 @@ public class OreNode : MonoBehaviour
             return;
         }
 
-        Mine();
+        PickaxeStats stats = collision.gameObject.GetComponentInParent<PickaxeStats>();
+
+        int level = 1;
+        if (stats != null) {
+            level = stats.level;
+        }
+
+        for (int i = 0; i < level; i++) {
+            Mine();
+        }
+
         nextMineTime = Time.time + cooldownTime;
     }
 
